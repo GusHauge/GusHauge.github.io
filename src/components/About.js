@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <div
       id="about"
-      class="flex flex-col w-full h-fit bg-slate-900 items-center space-y-12 py-28 px-10"
+      class="flex flex-col w-full h-fit bg-slate-900 items-center space-y-20 py-28 px-10"
     >
       <h1 class="text-6xl text-white">About Me</h1>
       <div class="flex items-center justify-center space-x-16">
