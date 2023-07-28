@@ -18,9 +18,9 @@ export default function App() {
 
           <div
             id="about"
-            class="flex flex-col w-full h-screen bg-slate-900 items-center space-y-12"
+            class="flex flex-col w-full h-fit bg-slate-900 items-center space-y-12 p-28"
           >
-            <h1 class="text-6xl text-white mt-20">About Me</h1>
+            <h1 class="text-6xl text-white">About Me</h1>
             <div class="flex items-center justify-center space-x-16 mb-24">
               <img
                 src={require("./images/Bray_Frontal.jpg")}
@@ -40,6 +40,13 @@ export default function App() {
                 continue this as I kickstart my career.
               </p>
             </div>
+          </div>
+
+          <div
+            id="experience"
+            class="flex flex-col w-full h-fit bg-indigo-950 items-center space-y-12 p-20"
+          >
+            <h1 class="text-6xl text-white">Experience</h1>
           </div>
         </div>
       </main>
