@@ -9,7 +9,7 @@ export default function App() {
       </header>
       <main class="relative">
         <div class="flex flex-col">
-          <div class="flex flex-col w-full h-[40rem] bg-indigo-950 space-y-10 items-center">
+          <div class="flex flex-col w-full h-screen bg-indigo-950 space-y-10 items-center">
             <h1 class="text-6xl text-white mt-40">Gus Hauge</h1>
             <h2 class="text-lg text-white">
               Software Developer with a passion for solving problems
@@ -18,7 +18,7 @@ export default function App() {
 
           <div
             id="about"
-            class="flex flex-col w-full h-[40rem] bg-slate-900 items-center space-y-12"
+            class="flex flex-col w-full h-screen bg-slate-900 items-center space-y-12"
           >
             <h1 class="text-6xl text-white mt-20">About Me</h1>
             <div class="flex items-center justify-center space-x-16 mb-24">
