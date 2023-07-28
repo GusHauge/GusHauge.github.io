@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3414fe96.css",
-    "main.js": "/static/js/main.7186de8d.js",
+    "main.css": "/static/css/main.47a43076.css",
+    "main.js": "/static/js/main.b62326dd.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Bray_Frontal.jpg": "/static/media/Bray_Frontal.9fbf9806d11cc077bbdd.jpg",
     "index.html": "/index.html",
-    "main.3414fe96.css.map": "/static/css/main.3414fe96.css.map",
-    "main.7186de8d.js.map": "/static/js/main.7186de8d.js.map",
+    "main.47a43076.css.map": "/static/css/main.47a43076.css.map",
+    "main.b62326dd.js.map": "/static/js/main.b62326dd.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3414fe96.css",
-    "static/js/main.7186de8d.js"
+    "static/css/main.47a43076.css",
+    "static/js/main.b62326dd.js"
   ]
 }
