@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.407bddd5.css",
-    "main.js": "/static/js/main.6cb0b841.js",
+    "main.css": "/static/css/main.0648994d.css",
+    "main.js": "/static/js/main.7318bd6c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Bray_Frontal.jpg": "/static/media/Bray_Frontal.9fbf9806d11cc077bbdd.jpg",
     "static/media/ND_OIT_logo.png": "/static/media/ND_OIT_logo.ce179cfb589df17dcac4.png",
     "static/media/ND_Research_logo.jpg": "/static/media/ND_Research_logo.b0e1e6eff99322d54978.jpg",
     "index.html": "/index.html",
-    "main.407bddd5.css.map": "/static/css/main.407bddd5.css.map",
-    "main.6cb0b841.js.map": "/static/js/main.6cb0b841.js.map",
+    "main.0648994d.css.map": "/static/css/main.0648994d.css.map",
+    "main.7318bd6c.js.map": "/static/js/main.7318bd6c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.407bddd5.css",
-    "static/js/main.6cb0b841.js"
+    "static/css/main.0648994d.css",
+    "static/js/main.7318bd6c.js"
   ]
 }
