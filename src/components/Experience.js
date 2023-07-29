@@ -6,7 +6,7 @@ export const Experience = () => {
     >
       <h1 class="text-6xl text-white">Experience</h1>
       <div class="flex flex-col gap-24">
-        <div class="flex  justify-center space-x-16">
+        <div class="flex  justify-center space-x-10">
           <img
             src={require("../images/IBM_logo.png")}
             alt="IBM"
@@ -30,7 +30,7 @@ export const Experience = () => {
           </div>
         </div>
 
-        <div class="flex  justify-center space-x-16">
+        <div class="flex  justify-center space-x-10">
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold text-white">
