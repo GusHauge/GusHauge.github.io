@@ -4,14 +4,14 @@ export const About = () => {
       id="about"
       class="flex flex-col w-full h-fit bg-slate-900 items-center space-y-28 py-28 px-10"
     >
-      <h1 class="text-6xl text-white">About Me</h1>
+      <h1 class="text-6xl text-white font-thin">About Me</h1>
       <div class="flex items-center justify-center space-x-16">
         <img
           src={require("../images/Bray_Frontal.jpg")}
           alt="Gus"
           class="rounded-lg h-96"
         />
-        <p class="text-lg text-white max-w-lg">
+        <p class="text-lg text-white font-light max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
           reflects my enthusiasm for both technology and pursuit of the common

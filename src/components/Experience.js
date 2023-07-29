@@ -4,7 +4,7 @@ export const Experience = () => {
       id="experience"
       class="flex flex-col w-full h-fit bg-indigo-950 items-center space-y-28 py-28 px-10"
     >
-      <h1 class="text-6xl text-white">Experience</h1>
+      <h1 class="text-6xl text-white font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
         <div class="flex  justify-center space-x-10">
           <img
@@ -19,7 +19,7 @@ export const Experience = () => {
                 Software Engineer Intern
               </h1>
             </div>
-            <p class="text-md text-white">
+            <p class="text-md text-white font-light">
               This summer I have been building a full stack web application
               using React.js, Express.js, and Postgres to streamline the IBM
               Enterprise Federation onboarding experience and data access for
@@ -38,7 +38,7 @@ export const Experience = () => {
               </h1>
               <h1 class="text-lg font-bold text-white">Research Assistant</h1>
             </div>
-            <p class="text-md text-white">
+            <p class="text-md text-white font-light">
               For the past 2 years I have been working under Professors Adam
               Czajka and Patrick Flynn at the University of Notre Dame. I have
               taken on a number of tasks, most notably a NIST iris project in
@@ -70,7 +70,7 @@ export const Experience = () => {
                 Classroom Triage Assistant
               </h1>
             </div>
-            <p class="text-md text-white">
+            <p class="text-md text-white font-light">
               During fall of 2021 I took my first ever tech-related job with the
               University of Notre Dame's IT office. I primarily managed calls
               and made classroom visits to aid professors and teaching
