@@ -11,7 +11,7 @@ export const About = () => {
           alt="Gus"
           class="rounded-lg h-96"
         />
-        <p class="text-lg font-light max-w-lg">
+        <p class="text-lg max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
           reflects my enthusiasm for both technology and pursuit of the common
