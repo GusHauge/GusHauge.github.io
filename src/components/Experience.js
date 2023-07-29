@@ -46,7 +46,7 @@ export const Experience = () => {
           </div>
           <img
             src={require("../images/ND_Research_logo.jpg")}
-            alt="IBM"
+            alt="ND_Research"
             class="rounded-2xl h-52"
           />
         </div>
@@ -54,7 +54,7 @@ export const Experience = () => {
         <div class="flex justify-center space-x-10">
           <img
             src={require("../images/ND_OIT_logo.png")}
-            alt="IBM"
+            alt="ND_OIT"
             class="rounded-2xl h-52"
           />
           <div class="flex flex-col space-y-4 max-w-xl">
