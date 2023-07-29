@@ -1,9 +1,9 @@
 import React from "react";
-import { Navbar, Title, About, Experience } from "./components";
+import { Navbar, Title, About, Experience, Projects } from "./components";
 
 export default function App() {
   return (
-    <div class="min-h-screen">
+    <div class="min-h-screen selection:bg-white selection:text-black text-white">
       <header class="sticky top-0 z-50">
         <Navbar />
       </header>
@@ -12,6 +12,7 @@ export default function App() {
           <Title />
           <About />
           <Experience />
+          <Projects />
         </div>
       </main>
     </div>
