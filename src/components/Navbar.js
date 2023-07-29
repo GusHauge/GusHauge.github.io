@@ -19,7 +19,10 @@ export const Navbar = () => {
       >
         Experience
       </button>
-      <button class="px-4 rounded-md transition-colors duration-300 delay-100 hover:bg-indigo-500">
+      <button
+        class="px-4 rounded-md transition-colors duration-300 delay-100 hover:bg-indigo-500"
+        onClick={() => document.getElementById("projects").scrollIntoView()}
+      >
         Projects
       </button>
       <button class="px-4 rounded-md transition-colors duration-300 delay-100 hover:bg-indigo-500">
