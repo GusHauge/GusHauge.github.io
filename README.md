@@ -1,4 +1,4 @@
-# Gus Hauge Portfolio Website | <a href="gushauge.github.io">GusHauge.github.io</a>
+# Gus Hauge Portfolio Website | <a href="https://gushauge.github.io">GusHauge.github.io</a>
 
 Welcome to the source code for my personal website! It was built using Create React App, React.js, and Tailwind CSS.
 
