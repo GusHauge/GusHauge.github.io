@@ -7,11 +7,13 @@ export const Experience = () => {
       <h1 class="text-6xl font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
         <div class="flex justify-center space-x-10">
-          <img
-            src={require("../images/IBM_logo.png")}
-            alt="IBM"
-            class="rounded-2xl h-52"
-          />
+          <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
+            <img
+              src={require("../images/IBM_logo.png")}
+              alt="IBM"
+              class="rounded-2xl h-52"
+            />
+          </a>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold ">IBM</h1>
@@ -44,19 +46,23 @@ export const Experience = () => {
               environment files and craft professional cover pages.
             </p>
           </div>
-          <img
-            src={require("../images/ND_Research_logo.jpg")}
-            alt="ND_Research"
-            class="rounded-2xl h-52"
-          />
+          <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
+            <img
+              src={require("../images/ND_Research_logo.jpg")}
+              alt="ND_Research"
+              class="rounded-2xl h-52"
+            />
+          </a>
         </div>
 
         <div class="flex justify-center space-x-10">
-          <img
-            src={require("../images/ND_OIT_logo.png")}
-            alt="ND_OIT"
-            class="rounded-2xl h-52"
-          />
+          <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
+            <img
+              src={require("../images/ND_OIT_logo.png")}
+              alt="ND_OIT"
+              class="rounded-2xl h-52"
+            />
+          </a>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold">
