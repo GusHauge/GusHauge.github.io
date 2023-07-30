@@ -11,7 +11,7 @@ export const About = () => {
           alt="Gus"
           class="rounded-lg h-96"
         />
-        <p class="text-lg font-light max-w-lg">
+        <p class="text-lg max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
           reflects my enthusiasm for both technology and pursuit of the common
@@ -19,8 +19,8 @@ export const About = () => {
           elite universities for low-income students, I have learned the
           importance of hard work and grit. I am extremely interested in machine
           learning, computer vision, tech ethics, data science, and web
-          development. I am always looking to learn new skills and solve diverse
-          problems as I kickstart my career.
+          development. As I kickstart my career, I am always looking to learn
+          new skills and solve complex problems.
         </p>
       </div>
     </div>

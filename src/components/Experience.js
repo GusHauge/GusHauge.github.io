@@ -7,23 +7,25 @@ export const Experience = () => {
       <h1 class="text-6xl font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
         <div class="flex justify-center space-x-10">
-          <img
-            src={require("../images/IBM_logo.png")}
-            alt="IBM"
-            class="rounded-2xl h-52"
-          />
+          <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
+            <img
+              src={require("../images/IBM_logo.png")}
+              alt="IBM"
+              class="rounded-2xl h-52"
+            />
+          </a>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold ">IBM</h1>
               <h1 class="text-lg font-bold ">Software Engineer Intern</h1>
             </div>
-            <p class="text-md font-light">
+            <p class="text-md">
               This summer I have been building a full stack web application
               using React.js, Express.js, and Postgres to streamline the IBM
-              Enterprise Federation onboarding experience and data access for
-              over 900 business partners. I have honed my skills in agile
-              methodologies, full stack web development, and database management
-              while improving my proficiency in JavaScript and CSS.
+              Enterprise Federation onboarding experience and provide easy data
+              access to over 900 business partners. I have honed my skills in
+              agile methodologies, full stack web development, and database
+              management while improving my proficiency in JavaScript and CSS.
             </p>
           </div>
         </div>
@@ -34,7 +36,7 @@ export const Experience = () => {
               <h1 class="text-lg font-bold ">Computer Vision Research Lab</h1>
               <h1 class="text-lg font-bold ">Research Assistant</h1>
             </div>
-            <p class="text-md font-light">
+            <p class="text-md">
               For the past 2 years I have been working under Professors Adam
               Czajka and Patrick Flynn at the University of Notre Dame. I have
               taken on a number of tasks, most notably a NIST iris project in
@@ -44,19 +46,23 @@ export const Experience = () => {
               environment files and craft professional cover pages.
             </p>
           </div>
-          <img
-            src={require("../images/ND_Research_logo.jpg")}
-            alt="ND_Research"
-            class="rounded-2xl h-52"
-          />
+          <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
+            <img
+              src={require("../images/ND_Research_logo.jpg")}
+              alt="ND_Research"
+              class="rounded-2xl h-52"
+            />
+          </a>
         </div>
 
         <div class="flex justify-center space-x-10">
-          <img
-            src={require("../images/ND_OIT_logo.png")}
-            alt="ND_OIT"
-            class="rounded-2xl h-52"
-          />
+          <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
+            <img
+              src={require("../images/ND_OIT_logo.png")}
+              alt="ND_OIT"
+              class="rounded-2xl h-52"
+            />
+          </a>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold">
@@ -64,7 +70,7 @@ export const Experience = () => {
               </h1>
               <h1 class="text-lg font-bold">Classroom Triage Assistant</h1>
             </div>
-            <p class="text-md font-light">
+            <p class="text-md">
               During fall of 2021 I took my first ever tech-related job with the
               University of Notre Dame's IT office. I primarily managed calls
               and made classroom visits to aid professors and teaching
