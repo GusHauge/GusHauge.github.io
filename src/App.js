@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, Title, About, Experience, Projects } from "./components";
+import {
+  Navbar,
+  Title,
+  About,
+  Experience,
+  Projects,
+  Contact,
+} from "./components";
 
 export default function App() {
   return (
@@ -13,6 +20,7 @@ export default function App() {
           <About />
           <Experience />
           <Projects />
+          <Contact />
         </div>
       </main>
     </div>
