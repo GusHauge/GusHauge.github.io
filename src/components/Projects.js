@@ -15,7 +15,7 @@ export const Projects = () => {
             <img
               src={require("../images/March_Metrics_code.png")}
               alt="March Metrics code"
-              class="h-72 rounded-2xl"
+              class="h-auto w-auto max-h-72 min-w-[12rem] rounded-2xl object-fit"
             />
           </a>
           <div class="flex flex-col space-y-4 max-w-xl">
@@ -31,7 +31,7 @@ export const Projects = () => {
                 <img
                   src={require("../images/GitHub_logo.jpg")}
                   alt="GitHub"
-                  class="h-8 rounded-full"
+                  class="w-8 rounded-full"
                 />
               </a>
             </div>

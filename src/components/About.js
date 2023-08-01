@@ -9,7 +9,7 @@ export const About = () => {
         <img
           src={require("../images/Bray_Frontal.jpg")}
           alt="Gus"
-          class="rounded-lg h-96"
+          class="rounded-lg max-w-xs"
         />
         <p class="text-lg max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of

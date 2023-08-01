@@ -11,7 +11,7 @@ export const Experience = () => {
             <img
               src={require("../images/IBM_logo.png")}
               alt="IBM"
-              class="rounded-2xl h-52"
+              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
             />
           </a>
           <div class="flex flex-col space-y-4 max-w-xl">
@@ -50,7 +50,7 @@ export const Experience = () => {
             <img
               src={require("../images/ND_Research_logo.jpg")}
               alt="ND_Research"
-              class="rounded-2xl h-52"
+              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
             />
           </a>
         </div>
@@ -60,7 +60,7 @@ export const Experience = () => {
             <img
               src={require("../images/ND_OIT_logo.png")}
               alt="ND_OIT"
-              class="rounded-2xl h-52"
+              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
             />
           </a>
           <div class="flex flex-col space-y-4 max-w-xl">
