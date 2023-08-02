@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <div
-      id="about"
+      id="contact"
       class="flex flex-col w-full h-fit bg-black items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">Contact Me</h1>
