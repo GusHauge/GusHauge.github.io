@@ -2,7 +2,7 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      class="flex flex-col w-full h-fit bg-indigo-950 items-center space-y-28 py-28 px-10"
+      class="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
