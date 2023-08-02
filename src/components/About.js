@@ -2,14 +2,14 @@ export const About = () => {
   return (
     <div
       id="about"
-      class="flex flex-col w-full h-fit bg-slate-900 items-center space-y-28 py-28 px-10"
+      class="flex flex-col w-full h-fit bg-black items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">About Me</h1>
       <div class="flex items-center justify-center space-x-16">
         <img
           src={require("../images/Bray_Frontal.jpg")}
           alt="Gus"
-          class="rounded-lg h-96"
+          class="rounded-lg max-w-xs"
         />
         <p class="text-lg max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of

@@ -2,7 +2,7 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      class="flex flex-col w-full h-fit bg-indigo-950 items-center space-y-28 py-28 px-10"
+      class="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
@@ -11,7 +11,7 @@ export const Experience = () => {
             <img
               src={require("../images/IBM_logo.png")}
               alt="IBM"
-              class="rounded-2xl h-52"
+              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
             />
           </a>
           <div class="flex flex-col space-y-4 max-w-xl">
@@ -50,7 +50,7 @@ export const Experience = () => {
             <img
               src={require("../images/ND_Research_logo.jpg")}
               alt="ND_Research"
-              class="rounded-2xl h-52"
+              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
             />
           </a>
         </div>
@@ -60,7 +60,7 @@ export const Experience = () => {
             <img
               src={require("../images/ND_OIT_logo.png")}
               alt="ND_OIT"
-              class="rounded-2xl h-52"
+              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
             />
           </a>
           <div class="flex flex-col space-y-4 max-w-xl">

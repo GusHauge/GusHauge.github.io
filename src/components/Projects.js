@@ -2,7 +2,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      class="flex flex-col w-full h-fit bg-slate-900 items-center space-y-28 py-28 px-10"
+      class="flex flex-col w-full h-fit bg-indigo-900 items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">Projects</h1>
       <div class="flex flex-col gap-24">
@@ -15,7 +15,7 @@ export const Projects = () => {
             <img
               src={require("../images/March_Metrics_code.png")}
               alt="March Metrics code"
-              class="h-72 rounded-2xl"
+              class="h-auto w-auto max-h-72 min-w-[12rem] rounded-2xl object-fit"
             />
           </a>
           <div class="flex flex-col space-y-4 max-w-xl">
@@ -31,7 +31,7 @@ export const Projects = () => {
                 <img
                   src={require("../images/GitHub_logo.jpg")}
                   alt="GitHub"
-                  class="h-8 rounded-full"
+                  class="w-8 rounded-full"
                 />
               </a>
             </div>
