@@ -5,7 +5,7 @@ export const About = () => {
       class="flex flex-col w-full h-fit bg-black items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">About Me</h1>
-      <div class="flex flex-col sm:flex-row items-center justify-center space-y-8 space-x-16">
+      <div class="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-x-16 sm:space-y-0">
         <div class="shrink-0">
           <img
             src={require("../images/Bray_Frontal.jpg")}
