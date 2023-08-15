@@ -7,13 +7,15 @@ export const Experience = () => {
       <h1 class="text-6xl font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
         <div class="flex justify-center space-x-10">
-          <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
-            <img
-              src={require("../images/IBM_logo.png")}
-              alt="IBM"
-              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
-            />
-          </a>
+          <div class="shrink-0">
+            <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
+              <img
+                src={require("../images/IBM_logo.png")}
+                alt="IBM"
+                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52"
+              />
+            </a>
+          </div>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold ">IBM</h1>
