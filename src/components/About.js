@@ -5,12 +5,12 @@ export const About = () => {
       class="flex flex-col w-full h-fit bg-black items-center space-y-28 py-14 px-10"
     >
       <h1 class="text-6xl font-thin">About Me</h1>
-      <div class="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-x-16 sm:space-y-0">
-        <div class="shrink-0">
+      <div class="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-x-8 sm:space-y-0 md:space-x-12 lg:space-x-16 xl:space-x-20">
+        <div class="shrink-0 sm:w-1/3">
           <img
             src={require("../images/Bray_Frontal.jpg")}
             alt="Gus"
-            class="rounded-lg w-96 h-60 object-cover sm:w-44 sm:h-auto md:w-56 md:h-auto lg:w-64 lg:h-auto"
+            class="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
           />
         </div>
         <p class="text-sm md:text-base lg:text-lg max-w-lg">
