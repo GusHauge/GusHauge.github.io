@@ -6,8 +6,8 @@ export const Projects = () => {
     >
       <h1 class="text-6xl font-thin">Projects</h1>
       <div class="flex flex-col gap-24">
-        <div class="flex justify-center space-x-10">
-          <div class="srink-0 transition ease-in-out delay-75 duration-150 hover:scale-105">
+        <div class="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:space-y-0">
+          <div class="shrink-0">
             <a
               href="https://colab.research.google.com/drive/1j5wOZnaysJeZHw4W5ds9ZSGSeTcwLlGR"
               target="_blank"
@@ -16,7 +16,7 @@ export const Projects = () => {
               <img
                 src={require("../images/March_Metrics_code.png")}
                 alt="March Metrics code"
-                class="h-auto w-auto max-h-72 min-w-[12rem] rounded-2xl object-fit"
+                class="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:mr-10 transition ease-in-out delay-75 duration-150 hover:scale-105"
               />
             </a>
           </div>
