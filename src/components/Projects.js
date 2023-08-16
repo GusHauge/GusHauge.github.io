@@ -6,34 +6,38 @@ export const Projects = () => {
     >
       <h1 class="text-6xl font-thin">Projects</h1>
       <div class="flex flex-col gap-24">
-        <div class="flex justify-center space-x-10">
-          <a
-            href="https://colab.research.google.com/drive/1j5wOZnaysJeZHw4W5ds9ZSGSeTcwLlGR"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={require("../images/March_Metrics_code.png")}
-              alt="March Metrics code"
-              class="h-auto w-auto max-h-72 min-w-[12rem] rounded-2xl object-fit"
-            />
-          </a>
+        <div class="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:space-y-0">
+          <div class="shrink-0">
+            <a
+              href="https://colab.research.google.com/drive/1j5wOZnaysJeZHw4W5ds9ZSGSeTcwLlGR"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={require("../images/March_Metrics_code.png")}
+                alt="March Metrics code"
+                class="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:mr-10 transition ease-in-out delay-75 duration-150 hover:scale-105"
+              />
+            </a>
+          </div>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold">
                 March Metrics Tournament Predictor
               </h1>
-              <a
-                href="https://github.com/GusHauge/Silvestri_Carpets"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src={require("../images/GitHub_logo.jpg")}
-                  alt="GitHub"
-                  class="w-8 rounded-full"
-                />
-              </a>
+              <div class="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
+                <a
+                  href="https://github.com/GusHauge/Silvestri_Carpets"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={require("../images/GitHub_logo.jpg")}
+                    alt="GitHub"
+                    class="w-8 rounded-full"
+                  />
+                </a>
+              </div>
             </div>
             <p>
               In this final project for my Data Structures class, my team and I
