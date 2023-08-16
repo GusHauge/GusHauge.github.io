@@ -12,7 +12,7 @@ export const Experience = () => {
               <img
                 src={require("../images/IBM_logo.png")}
                 alt="IBM"
-                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52"
+                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52 transition ease-in-out delay-75 duration-150 hover:scale-110"
               />
             </a>
           </div>
@@ -48,23 +48,27 @@ export const Experience = () => {
               environment files and craft professional cover pages.
             </p>
           </div>
-          <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
-            <img
-              src={require("../images/ND_Research_logo.jpg")}
-              alt="ND_Research"
-              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
-            />
-          </a>
+          <div class="shrink-0">
+            <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
+              <img
+                src={require("../images/ND_Research_logo.jpg")}
+                alt="ND_Research"
+                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52 transition ease-in-out delay-75 duration-150 hover:scale-110"
+              />
+            </a>
+          </div>
         </div>
 
         <div class="flex justify-center space-x-10">
-          <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
-            <img
-              src={require("../images/ND_OIT_logo.png")}
-              alt="ND_OIT"
-              class="rounded-2xl h-auto w-auto max-h-52 max-w-52 min-h-[8rem] min-w-[8rem]"
-            />
-          </a>
+          <div class="shrink-0">
+            <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
+              <img
+                src={require("../images/ND_OIT_logo.png")}
+                alt="ND_OIT"
+                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52 transition ease-in-out delay-75 duration-150 hover:scale-110"
+              />
+            </a>
+          </div>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold">
