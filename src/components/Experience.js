@@ -6,13 +6,13 @@ export const Experience = () => {
     >
       <h1 class="text-6xl font-thin">Experience</h1>
       <div class="flex flex-col gap-24">
-        <div class="flex justify-center space-x-10">
+        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
           <div class="shrink-0">
             <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
               <img
                 src={require("../images/IBM_logo.png")}
                 alt="IBM"
-                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52 transition ease-in-out delay-75 duration-150 hover:scale-110"
+                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />
             </a>
           </div>
@@ -22,17 +22,26 @@ export const Experience = () => {
               <h1 class="text-lg font-bold ">Software Engineer Intern</h1>
             </div>
             <p class="text-md">
-              This summer I have been building a full stack web application
-              using React.js, Express.js, and Postgres to streamline the IBM
-              Enterprise Federation onboarding experience and provide easy data
-              access to over 900 business partners. I have honed my skills in
-              agile methodologies, full stack web development, and database
+              This pas summer my team and I have been built a full stack REST
+              API using React.js, Express.js, and PostgreSQL to streamline the
+              IBM Enterprise Federation onboarding experience and provide easy
+              data access to over 900 business partners. I have honed my skills
+              in agile methodologies, full stack web development, and database
               management while improving my proficiency in JavaScript and CSS.
             </p>
           </div>
         </div>
 
-        <div class="flex justify-center space-x-10">
+        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
+          <div class="shrink-0">
+            <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
+              <img
+                src={require("../images/ND_Research_logo.jpg")}
+                alt="ND_Research"
+                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+              />
+            </a>
+          </div>
           <div class="flex flex-col space-y-4 max-w-xl">
             <div class="flex justify-between">
               <h1 class="text-lg font-bold ">Computer Vision Research Lab</h1>
@@ -48,24 +57,15 @@ export const Experience = () => {
               environment files and craft professional cover pages.
             </p>
           </div>
-          <div class="shrink-0">
-            <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
-              <img
-                src={require("../images/ND_Research_logo.jpg")}
-                alt="ND_Research"
-                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52 transition ease-in-out delay-75 duration-150 hover:scale-110"
-              />
-            </a>
-          </div>
         </div>
 
-        <div class="flex justify-center space-x-10">
+        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0 sm:space-x-10">
           <div class="shrink-0">
             <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
               <img
                 src={require("../images/ND_OIT_logo.png")}
                 alt="ND_OIT"
-                class="rounded-2xl w-28 sm:w-36 md:w-48 lg:w-52 transition ease-in-out delay-75 duration-150 hover:scale-110"
+                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
             </a>
           </div>
