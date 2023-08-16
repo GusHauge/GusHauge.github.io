@@ -13,7 +13,7 @@ export const About = () => {
             class="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
           />
         </div>
-        <p class="text-sm md:text-base lg:text-lg max-w-lg">
+        <p class="text-lg sm:text-base md:text-lg lg:text-xl max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
           reflects my enthusiasm for both technology and pursuit of the common
