@@ -22,7 +22,7 @@ export const Experience = () => {
               <h1 class="text-lg font-bold ">Software Engineer Intern</h1>
             </div>
             <p class="text-md">
-              This pas summer my team and I have been built a full stack REST
+              This past summer my team and I have been built a full stack REST
               API using React.js, Express.js, and PostgreSQL to streamline the
               IBM Enterprise Federation onboarding experience and provide easy
               data access to over 900 business partners. I have honed my skills
@@ -59,13 +59,13 @@ export const Experience = () => {
           </div>
         </div>
 
-        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0 sm:space-x-10">
+        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
           <div class="shrink-0">
             <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
               <img
                 src={require("../images/ND_OIT_logo.png")}
                 alt="ND_OIT"
-                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />
             </a>
           </div>
