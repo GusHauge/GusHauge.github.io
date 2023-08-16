@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7153db38.css",
-    "main.js": "/static/js/main.75075cd2.js",
+    "main.css": "/static/css/main.88285a18.css",
+    "main.js": "/static/js/main.e80df8c5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/March_Metrics_code.png": "/static/media/March_Metrics_code.dbec401d389ca12e25a6.png",
     "static/media/Bray_Frontal.jpg": "/static/media/Bray_Frontal.9fbf9806d11cc077bbdd.jpg",
@@ -9,12 +9,12 @@
     "static/media/GitHub_logo.jpg": "/static/media/GitHub_logo.91cd625f7dadc85ed4e5.jpg",
     "static/media/ND_Research_logo.jpg": "/static/media/ND_Research_logo.b0e1e6eff99322d54978.jpg",
     "index.html": "/index.html",
-    "main.7153db38.css.map": "/static/css/main.7153db38.css.map",
-    "main.75075cd2.js.map": "/static/js/main.75075cd2.js.map",
+    "main.88285a18.css.map": "/static/css/main.88285a18.css.map",
+    "main.e80df8c5.js.map": "/static/js/main.e80df8c5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7153db38.css",
-    "static/js/main.75075cd2.js"
+    "static/css/main.88285a18.css",
+    "static/js/main.e80df8c5.js"
   ]
 }
