@@ -2,18 +2,18 @@ export const About = () => {
   return (
     <div
       id="about"
-      class="flex flex-col w-full h-fit bg-black items-center space-y-28 py-14 px-10"
+      className="flex flex-col w-full h-fit bg-black items-center space-y-28 py-14 px-10"
     >
-      <h1 class="text-6xl font-thin">About Me</h1>
-      <div class="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-x-8 sm:space-y-0 md:space-x-12 lg:space-x-16 xl:space-x-20">
-        <div class="shrink-0 sm:w-1/3">
+      <h1 className="text-6xl font-thin">About Me</h1>
+      <div className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-x-8 sm:space-y-0 md:space-x-12 lg:space-x-16 xl:space-x-20">
+        <div className="shrink-0 sm:w-1/3">
           <img
-            src={require("../images/Bray_Frontal.jpg")}
+            src="/images/Bray_Frontal.jpg"
             alt="Gus"
-            class="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
+            className="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
           />
         </div>
-        <p class="text-lg sm:text-base md:text-lg lg:text-xl max-w-lg">
+        <p className="text-lg sm:text-base md:text-lg lg:text-xl max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
           reflects my enthusiasm for both technology and pursuit of the common
