@@ -17,7 +17,7 @@ export const Experience = () => {
             </a>
           </div>
           <div className="flex flex-col space-y-4 max-w-xl">
-            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start">
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start text-center">
               <h1 className="text-lg font-bold ">IBM</h1>
               <h1 className="text-lg font-bold ">Software Engineer Intern</h1>
             </div>
@@ -43,7 +43,7 @@ export const Experience = () => {
             </a>
           </div>
           <div className="flex flex-col space-y-4 max-w-xl">
-            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start">
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start text-center">
               <h1 className="text-lg font-bold ">
                 Computer Vision Research Lab
               </h1>
@@ -72,7 +72,7 @@ export const Experience = () => {
             </a>
           </div>
           <div className="flex flex-col space-y-4 max-w-xl">
-            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start">
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start text-center">
               <h1 className="text-lg font-bold">
                 Office of Information Technologies
               </h1>
