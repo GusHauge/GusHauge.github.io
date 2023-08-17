@@ -13,12 +13,45 @@ export const Contact = () => {
             class="rounded-lg object-cover w-[32rem] h-52 lg:w-full lg:h-auto"
           />
         </div>
-        <p class="text-lg lg:text-xl max-w-lg">
-          I would love to connect to talk about technology, theology, ethics, or
-          anything on your mind! Please get in touch through any of methods
-          listed below.
-        </p>
-        <div class="flex"></div>
+
+        <div class="flex flex-col space-y-4 text-lg lg:text-xl max-w-lg">
+          <p>
+            I would love to connect and talk about technology, theology, ethics,
+            or anything on your mind! Please get in touch using the information
+            below:
+          </p>
+          <p class="text-center lg:text-left">
+            Email: augustinehauge@gmail.com
+          </p>
+          <div class="flex flex-row space-x-8 justify-center lg:justify-start">
+            <div class="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
+              <a
+                href="https://www.linkedin.com/in/gus-hauge-5207761bb/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={require("../images/LinkedIn_logo.jpg")}
+                  alt="GitHub"
+                  class="w-8 rounded-md"
+                />
+              </a>
+            </div>
+            <div class="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
+              <a
+                href="https://github.com/GusHauge"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={require("../images/GitHub_logo.jpg")}
+                  alt="GitHub"
+                  class="w-8 rounded-full"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
