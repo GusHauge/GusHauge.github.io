@@ -17,15 +17,15 @@ export const Experience = () => {
             </a>
           </div>
           <div class="flex flex-col space-y-4 max-w-xl">
-            <div class="flex justify-between">
+            <div class="flex flex-col lg:flex-row justify-between items-center sm:items-start">
               <h1 class="text-lg font-bold ">IBM</h1>
               <h1 class="text-lg font-bold ">Software Engineer Intern</h1>
             </div>
             <p class="text-md">
-              This past summer my team and I have been built a full stack REST
-              API using React.js, Express.js, and PostgreSQL to streamline the
-              IBM Enterprise Federation onboarding experience and provide easy
-              data access to over 900 business partners. I have honed my skills
+              This past summer my team and I built a full stack REST API using
+              React.js, Express.js, and PostgreSQL to streamline the IBM
+              Enterprise Federation onboarding experience and provide easy data
+              access to over 900 business partners. I was able to hone my skills
               in agile methodologies, full stack web development, and database
               management while improving my proficiency in JavaScript and CSS.
             </p>
@@ -43,7 +43,7 @@ export const Experience = () => {
             </a>
           </div>
           <div class="flex flex-col space-y-4 max-w-xl">
-            <div class="flex justify-between">
+            <div class="flex flex-col lg:flex-row justify-between items-center sm:items-start">
               <h1 class="text-lg font-bold ">Computer Vision Research Lab</h1>
               <h1 class="text-lg font-bold ">Research Assistant</h1>
             </div>
@@ -70,7 +70,7 @@ export const Experience = () => {
             </a>
           </div>
           <div class="flex flex-col space-y-4 max-w-xl">
-            <div class="flex justify-between">
+            <div class="flex flex-col lg:flex-row justify-between items-center sm:items-start">
               <h1 class="text-lg font-bold">
                 Office of Information Technologies
               </h1>
