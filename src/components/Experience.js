@@ -10,7 +10,7 @@ export const Experience = () => {
           <div class="shrink-0">
             <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
               <img
-                src={require("../images/IBM_logo.png")}
+                src="/images/IBM_logo.png"
                 alt="IBM"
                 class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />
@@ -36,7 +36,7 @@ export const Experience = () => {
           <div class="shrink-0">
             <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
               <img
-                src={require("../images/ND_Research_logo.jpg")}
+                src="/images/ND_Research_logo.jpg"
                 alt="ND_Research"
                 class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
@@ -63,7 +63,7 @@ export const Experience = () => {
           <div class="shrink-0">
             <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
               <img
-                src={require("../images/ND_OIT_logo.png")}
+                src="/images/ND_OIT_logo.png"
                 alt="ND_OIT"
                 class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />

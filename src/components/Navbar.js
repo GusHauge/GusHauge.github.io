@@ -2,7 +2,7 @@ export const Navbar = () => {
   return (
     <div class="flex justify-between bg-indigo-900 items-center">
       <div class="shrink-0 mx-6">
-        <img src="/Gus_logo.png" alt="GitHub" class="w-8 rounded-full" />
+        <img src="/images/Gus_logo.png" alt="GitHub" class="w-8 rounded-full" />
       </div>
 
       <div class="flex w-full h-12 justify-center space-x-3 mx-auto font-semibold">
@@ -45,7 +45,7 @@ export const Navbar = () => {
           rel="noreferrer"
         >
           <img
-            src={require("../images/GitHub_logo.jpg")}
+            src="/images/GitHub_logo.jpg"
             alt="GitHub"
             class="w-8 rounded-full"
           />

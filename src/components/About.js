@@ -8,7 +8,7 @@ export const About = () => {
       <div class="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-x-8 sm:space-y-0 md:space-x-12 lg:space-x-16 xl:space-x-20">
         <div class="shrink-0 sm:w-1/3">
           <img
-            src={require("../images/Bray_Frontal.jpg")}
+            src="/images/Bray_Frontal.jpg"
             alt="Gus"
             class="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
           />

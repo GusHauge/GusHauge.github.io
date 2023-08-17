@@ -8,7 +8,7 @@ export const Contact = () => {
       <div class="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-x-8 lg:space-y-0 xl:space-x-12">
         <div class="shrink-0 lg:w-1/3">
           <img
-            src={require("../images/Croagh_Patrick_Side.jpg")}
+            src="/images/Croagh_Patrick_Side.jpg"
             alt="Gus"
             class="rounded-lg object-cover w-[32rem] h-52 lg:w-full lg:h-auto"
           />
@@ -31,7 +31,7 @@ export const Contact = () => {
                 rel="noreferrer"
               >
                 <img
-                  src={require("../images/LinkedIn_logo.jpg")}
+                  src="/images/LinkedIn_logo.jpg"
                   alt="GitHub"
                   class="w-8 rounded-md"
                 />
@@ -44,7 +44,7 @@ export const Contact = () => {
                 rel="noreferrer"
               >
                 <img
-                  src={require("../images/GitHub_logo.jpg")}
+                  src="/images/GitHub_logo.jpg"
                   alt="GitHub"
                   class="w-8 rounded-full"
                 />

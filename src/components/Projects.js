@@ -14,7 +14,7 @@ export const Projects = () => {
               rel="noreferrer"
             >
               <img
-                src={require("../images/March_Metrics_code.png")}
+                src="/images/March_Metrics_code.png"
                 alt="March Metrics code"
                 class="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:mr-10 transition ease-in-out delay-75 duration-150 hover:scale-105"
               />
@@ -32,7 +32,7 @@ export const Projects = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src={require("../images/GitHub_logo.jpg")}
+                    src="/images/GitHub_logo.jpg"
                     alt="GitHub"
                     class="w-8 rounded-full"
                   />
