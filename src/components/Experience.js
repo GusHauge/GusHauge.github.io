@@ -16,10 +16,16 @@ export const Experience = () => {
               />
             </a>
           </div>
-          <div className="flex flex-col space-y-4 max-w-xl">
+          <div className="flex flex-col space-y-2 max-w-xl">
             <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start text-center">
-              <h1 className="text-lg font-bold ">IBM</h1>
-              <h1 className="text-lg font-bold ">Software Engineer Intern</h1>
+              <div className="flex-col sm:text-left">
+                <h1 className="text-lg font-bold">IBM</h1>
+                <p className="italic">Austin, TX</p>
+              </div>
+              <div className="flex-col sm:text-left lg:text-right">
+                <h1 className="text-lg font-bold">Software Engineer Intern</h1>
+                <p className="italic">Summer 2023</p>
+              </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
               This past summer my team and I built a full stack REST API using
@@ -42,12 +48,18 @@ export const Experience = () => {
               />
             </a>
           </div>
-          <div className="flex flex-col space-y-4 max-w-xl">
+          <div className="flex flex-col space-y-2 max-w-xl">
             <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start text-center">
-              <h1 className="text-lg font-bold ">
-                Computer Vision Research Lab
-              </h1>
-              <h1 className="text-lg font-bold ">Research Assistant</h1>
+              <div className="flex-col sm:text-left">
+                <h1 className="text-lg font-bold">
+                  Computer Vision Research Lab
+                </h1>
+                <p className="italic">Notre Dame, IN</p>
+              </div>
+              <div className="flex-col sm:text-left lg:text-right">
+                <h1 className="text-lg font-bold">Research Assistant</h1>
+                <p className="italic">Fall 2021-Present</p>
+              </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
               For the past 2 years I have been working under Professors Adam
@@ -71,12 +83,20 @@ export const Experience = () => {
               />
             </a>
           </div>
-          <div className="flex flex-col space-y-4 max-w-xl">
+          <div className="flex flex-col space-y-2 max-w-xl">
             <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start text-center">
-              <h1 className="text-lg font-bold">
-                Office of Information Technologies
-              </h1>
-              <h1 className="text-lg font-bold">Classroom Triage Assistant</h1>
+              <div className="flex-col sm:text-left">
+                <h1 className="text-lg font-bold">
+                  Office of Information Technologies
+                </h1>
+                <p className="italic">Notre Dame, IN</p>
+              </div>
+              <div className="flex-col sm:text-left lg:text-right">
+                <h1 className="text-lg font-bold">
+                  Classroom Triage Assistant
+                </h1>
+                <p className="italic">Fall 2021</p>
+              </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
               During fall of 2021 I took my first ever tech-related job with the
