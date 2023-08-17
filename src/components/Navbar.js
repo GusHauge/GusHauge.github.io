@@ -1,3 +1,5 @@
+import { Bars3Icon } from "@heroicons/react/24/solid";
+
 export const Navbar = () => {
   return (
     <div class="flex justify-between bg-indigo-900 items-center">
