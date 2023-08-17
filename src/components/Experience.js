@@ -2,26 +2,26 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      class="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-28 py-14 px-10"
+      className="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-28 py-14 px-10"
     >
-      <h1 class="text-6xl font-thin">Experience</h1>
-      <div class="flex flex-col gap-24">
-        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
-          <div class="shrink-0">
+      <h1 className="text-6xl font-thin">Experience</h1>
+      <div className="flex flex-col gap-24">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
+          <div className="shrink-0">
             <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
               <img
                 src="/images/IBM_logo.png"
                 alt="IBM"
-                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />
             </a>
           </div>
-          <div class="flex flex-col space-y-4 max-w-xl">
-            <div class="flex flex-col lg:flex-row justify-between items-center sm:items-start">
-              <h1 class="text-lg font-bold ">IBM</h1>
-              <h1 class="text-lg font-bold ">Software Engineer Intern</h1>
+          <div className="flex flex-col space-y-4 max-w-xl">
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start">
+              <h1 className="text-lg font-bold ">IBM</h1>
+              <h1 className="text-lg font-bold ">Software Engineer Intern</h1>
             </div>
-            <p class="text-base sm:text-sm lg:text-base">
+            <p className="text-base sm:text-sm lg:text-base">
               This past summer my team and I built a full stack REST API using
               React.js, Express.js, and PostgreSQL to streamline the IBM
               Enterprise Federation onboarding experience and provide easy data
@@ -32,22 +32,24 @@ export const Experience = () => {
           </div>
         </div>
 
-        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
-          <div class="shrink-0">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
+          <div className="shrink-0">
             <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
               <img
                 src="/images/ND_Research_logo.jpg"
                 alt="ND_Research"
-                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
             </a>
           </div>
-          <div class="flex flex-col space-y-4 max-w-xl">
-            <div class="flex flex-col lg:flex-row justify-between items-center sm:items-start">
-              <h1 class="text-lg font-bold ">Computer Vision Research Lab</h1>
-              <h1 class="text-lg font-bold ">Research Assistant</h1>
+          <div className="flex flex-col space-y-4 max-w-xl">
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start">
+              <h1 className="text-lg font-bold ">
+                Computer Vision Research Lab
+              </h1>
+              <h1 className="text-lg font-bold ">Research Assistant</h1>
             </div>
-            <p class="text-base sm:text-sm lg:text-base">
+            <p className="text-base sm:text-sm lg:text-base">
               For the past 2 years I have been working under Professors Adam
               Czajka and Patrick Flynn at the University of Notre Dame. I have
               taken on a number of tasks, most notably a NIST iris project in
@@ -59,24 +61,24 @@ export const Experience = () => {
           </div>
         </div>
 
-        <div class="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
-          <div class="shrink-0">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
+          <div className="shrink-0">
             <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
               <img
                 src="/images/ND_OIT_logo.png"
                 alt="ND_OIT"
-                class="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />
             </a>
           </div>
-          <div class="flex flex-col space-y-4 max-w-xl">
-            <div class="flex flex-col lg:flex-row justify-between items-center sm:items-start">
-              <h1 class="text-lg font-bold">
+          <div className="flex flex-col space-y-4 max-w-xl">
+            <div className="flex flex-col lg:flex-row justify-between items-center sm:items-start">
+              <h1 className="text-lg font-bold">
                 Office of Information Technologies
               </h1>
-              <h1 class="text-lg font-bold">Classroom Triage Assistant</h1>
+              <h1 className="text-lg font-bold">Classroom Triage Assistant</h1>
             </div>
-            <p class="text-base sm:text-sm lg:text-base">
+            <p className="text-base sm:text-sm lg:text-base">
               During fall of 2021 I took my first ever tech-related job with the
               University of Notre Dame's IT office. I primarily managed calls
               and made classroom visits to aid professors and teaching
