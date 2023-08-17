@@ -15,12 +15,15 @@ export const Navbar = () => {
       </div>
 
       <div className="flex flex-col items-center relative sm:hidden">
-        <button onClick={() => setExpanded(!expanded)}>
-          <Bars3Icon className="h-10" />
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="transition-colors rounded-md duration-300 delay-100 hover:bg-indigo-500"
+        >
+          <Bars3Icon className="h-11" />
         </button>
         {expanded && (
           <>
-            <div className="flex flex-col absolute mt-10 items-center justify-center my-auto bg-indigo-900">
+            <div className="flex flex-col absolute mt-11 items-center justify-center my-auto bg-indigo-900">
               <button
                 className="h-10 w-28 transition-colors duration-300 delay-100 hover:bg-indigo-500"
                 onClick={() => window.scrollTo(0, 0)}
