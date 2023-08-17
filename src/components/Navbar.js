@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
-    <div class="flex justify-between bg-indigo-900 items-center px-4">
-      <div class="shrink-0">
+    <div class="flex justify-between bg-indigo-900 items-center">
+      <div class="shrink-0 mx-6">
         <img src="/Gus_logo.png" alt="GitHub" class="w-8 rounded-full" />
       </div>
 
@@ -38,7 +38,7 @@ export const Navbar = () => {
         </button>
       </div>
 
-      <div class="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
+      <div class="shrink-0 mx-6 transition ease-in-out delay-75 duration-150 hover:scale-125">
         <a
           href="https://github.com/GusHauge/GusHauge.github.io"
           target="_blank"
