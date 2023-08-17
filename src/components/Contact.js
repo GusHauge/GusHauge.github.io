@@ -14,8 +14,8 @@ export const Contact = () => {
           />
         </div>
         <p class="text-lg lg:text-xl max-w-lg">
-          I would love to connect to talk about technology, theology, ethics, or
-          anything on your mind! Please get in touch through any of methods
+          I would love to connect and talk about technology, theology, ethics,
+          or anything on your mind! Please get in touch through any of methods
           listed below.
         </p>
         <div class="flex"></div>
