@@ -64,7 +64,7 @@ export const Navbar = () => {
         )}
       </div>
 
-      <div className="hidden sm:flex justify-center space-x-3 mx-auto font-semibold">
+      <div className="hidden h-12 sm:flex justify-center space-x-3 mx-auto font-semibold">
         <button
           className="px-4 rounded-md transition-colors duration-300 delay-100 hover:bg-indigo-500"
           onClick={() => window.scrollTo(0, 0)}
