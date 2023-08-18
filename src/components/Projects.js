@@ -59,12 +59,12 @@ export const Projects = () => {
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row-reverse lg:space-y-0">
           <div className="shrink-0">
             <a
-              href="https://colab.research.google.com/drive/1j5wOZnaysJeZHw4W5ds9ZSGSeTcwLlGR"
+              href="https://GusHauge.github.io"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src="/images/March_Metrics_code.png"
+                src="/images/Portfolio_code.png"
                 alt="March Metrics code"
                 className="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:ml-10 transition ease-in-out delay-75 duration-150 hover:scale-105"
               />
