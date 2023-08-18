@@ -20,10 +20,8 @@ export const Contact = () => {
             or anything on your mind! Please get in touch using the information
             below:
           </p>
-          <p className="text-center lg:text-left">
-            Email: augustinehauge@gmail.com
-          </p>
-          <div className="flex flex-row space-x-8 justify-center lg:justify-start">
+          <p>Email: augustinehauge@gmail.com</p>
+          <div className="flex flex-row space-x-8">
             <div className="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
               <a
                 href="https://www.linkedin.com/in/gus-hauge-5207761bb/"
