@@ -43,15 +43,15 @@ export const Projects = () => {
               In this final project for my Data Structures class, my team and I
               trained a random forest classifier in Python using the
               Scikit-Learn library and college basketball data from 2013-2019.
-              Our model had a multiple events that it predicted, ranging from
-              head-to-head matchups to post-season seeding and even March
-              Madness tournament performance for NCAA teams. We incorporated
-              Pandas features like dummy variables and feature importance to
-              refine our model and identify the most significant statistics for
-              post-season success. We delivered weekly memos and code reviews
-              for our class, culminating in a final presentation and code
-              demonstration that earned us an honorable mention for best project
-              out of a pool of 135 students.
+              Our model predicted a number of outcomes, ranging from
+              head-to-head matchups to post-season seeding and even overall
+              tournament performance for March Madness teams. We incorporated
+              Pandas library features like dummy variables and feature
+              importance to refine our model and identify the most significant
+              statistics for post-season success. We delivered weekly memos and
+              code reviews for our class, culminating in a final presentation
+              and code demonstration that earned us an honorable mention for
+              best project out of a pool of 135 students.
             </p>
           </div>
         </div>
@@ -92,13 +92,13 @@ export const Projects = () => {
               result of many hours of learning, experimentation, and hard work.
               It was built using Create React App, React.js, and TailwindCSS.
               Although I had always wanted a portfolio website, it was very
-              intimidating to me until I finally sat down and just did it. It
+              intimidating to me until I finally just sat down and did it. It
               ended up being more complex than I initially thought with all the
               components, animations, and styling involved but I learned an
               immense amount through the experience and effectively developed my
-              front-end design skills. Althogh the current site is a good start,
-              I hope to continuously update the website with new projects and
-              experience as well as improved styling and functionality as I
+              front-end design skills. Although the current site is a good
+              start, I hope to continuously update the website with new projects
+              and experience as well as improved styling and functionality as I
               continue to grow as a software engineer.
             </p>
           </div>
