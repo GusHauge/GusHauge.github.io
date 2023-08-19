@@ -2,10 +2,10 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col w-full h-fit bg-indigo-900 items-center space-y-28 py-14 px-10"
+      className="flex flex-col w-full h-fit bg-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
-      <h1 className="text-6xl font-thin">Projects</h1>
-      <div className="flex flex-col gap-24">
+      <h1 className="text-5xl sm:text-6xl font-thin">Projects</h1>
+      <div className="flex flex-col gap-16">
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:space-y-0">
           <div className="shrink-0">
             <a
@@ -25,7 +25,7 @@ export const Projects = () => {
               <h1 className="text-lg font-bold">
                 March Metrics Tournament Predictor
               </h1>
-              <div className="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
+              <div className="shrink-0 ml-1 transition ease-in-out delay-75 duration-150 hover:scale-125">
                 <a
                   href="https://github.com/GusHauge/Silvestri_Carpets"
                   target="_blank"
@@ -73,7 +73,7 @@ export const Projects = () => {
           <div className="flex flex-col space-y-4 max-w-xl">
             <div className="flex justify-between">
               <h1 className="text-lg font-bold">Portfolio Website</h1>
-              <div className="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
+              <div className="shrink-0 ml-1 transition ease-in-out delay-75 duration-150 hover:scale-125">
                 <a
                   href="https://github.com/GusHauge/GusHauge.github.io"
                   target="_blank"
