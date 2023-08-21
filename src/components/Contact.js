@@ -4,7 +4,7 @@ export const Contact = () => {
       id="contact"
       className="flex flex-col w-full h-fit bg-gradient-to-b from-indigo-900 to-black items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10 pb-32"
     >
-      <h1 className="text-4xl sm:text-6xl font-thin">Contact Me</h1>
+      <h1 className="text-5xl sm:text-6xl font-thin">Contact Me</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-x-8 lg:space-y-0 xl:space-x-12">
         <div className="shrink-0 lg:w-1/3">
           <img

@@ -4,7 +4,7 @@ export const Experience = () => {
       id="experience"
       className="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
-      <h1 className="text-4xl sm:text-6xl font-thin">Experience</h1>
+      <h1 className="text-5xl sm:text-6xl font-thin">Experience</h1>
       <div className="flex flex-col gap-16">
         <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
           <div className="shrink-0">
