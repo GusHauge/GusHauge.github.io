@@ -4,7 +4,7 @@ export const Projects = () => {
       id="projects"
       className="flex flex-col w-full h-fit bg-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
-      <h1 className="text-5xl sm:text-6xl font-thin">Projects</h1>
+      <h1 className="text-4xl sm:text-6xl font-thin">Projects</h1>
       <div className="flex flex-col gap-16">
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:space-y-0">
           <div className="shrink-0">

@@ -4,7 +4,7 @@ export const About = () => {
       id="about"
       className="flex flex-col w-full h-fit bg-black items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
-      <h1 className="text-5xl sm:text-6xl font-thin">About Me</h1>
+      <h1 className="text-4xl sm:text-6xl font-thin">About Me</h1>
       <div className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-x-8 sm:space-y-0 md:space-x-12 lg:space-x-16 xl:space-x-20">
         <div className="shrink-0 sm:w-1/3">
           <img
@@ -13,7 +13,7 @@ export const About = () => {
             className="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
           />
         </div>
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-lg">
+        <p className="text-base md:text-lg lg:text-xl max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
           reflects my enthusiasm for both technology and pursuit of the common
