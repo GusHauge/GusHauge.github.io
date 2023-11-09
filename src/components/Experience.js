@@ -10,9 +10,42 @@ export const Experience = () => {
           <div className="shrink-0">
             <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
               <img
-                src="/images/IBM_logo.png"
+                src="/images/IBM_logo_light.png"
                 alt="IBM"
                 className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
+              />
+            </a>
+          </div>
+          <div className="flex flex-col space-y-2 max-w-xl">
+            <div className="flex flex-col lg:flex-row justify-between">
+              <div className="flex-col">
+                <h1 className="text-lg font-bold">IBM</h1>
+                <p className="italic">Remote</p>
+              </div>
+              <div className="flex-col lg:text-right">
+                <h1 className="text-lg font-bold">Software Engineer Intern</h1>
+                <p className="italic">Fall 2023-Present</p>
+              </div>
+            </div>
+            <p className="text-base sm:text-sm lg:text-base">
+              I am currently working as a part-time intern for IBM, continuing
+              my work in the CIO department from this summer. I have taken part
+              in several meetings with important implications on the team's app
+              template and design of multiple internal apps that will affect
+              both IBM employees and enterprise partners. I have continued to
+              hone my skills in JavaScript while familiarizing myself with the
+              team's design architecture.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
+          <div className="shrink-0">
+            <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
+              <img
+                src="/images/IBM_logo_dark.png"
+                alt="IBM"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
             </a>
           </div>
@@ -38,13 +71,13 @@ export const Experience = () => {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
           <div className="shrink-0">
             <a href="https://cvrl.nd.edu" target="_blank" rel="noreferrer">
               <img
                 src="/images/ND_Research_logo.jpg"
                 alt="ND_Research"
-                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
               />
             </a>
           </div>
@@ -58,28 +91,29 @@ export const Experience = () => {
               </div>
               <div className="flex-col lg:text-right">
                 <h1 className="text-lg font-bold">Research Assistant</h1>
-                <p className="italic">Fall 2021-Present</p>
+                <p className="italic">Fall 2021-Spring 2023</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              For the past 2 years I have been working under Professors Adam
-              Czajka and Patrick Flynn at the University of Notre Dame. I have
-              taken on a number of tasks, most notably a NIST iris project in
-              which I used Python scripting and Pandas to filter 500,000 human
-              iris images to a dataset of 6,000 images specified by quality
-              metric software. I have also tested project code to build Python
-              environment files and craft professional cover pages.
+              Over 2 years I worked under Professors Adam Czajka and Patrick
+              Flynn at the University of Notre Dame's CVRL. I took on a number
+              of tasks, most notably a NIST iris recognition computer vision
+              project in which I used Python scripting and Pandas to filter
+              500,000 human iris images to a dataset of 6,000 images specified
+              by quality metric software. I also tested project code to build
+              Python environment files and crafted professional cover pages for
+              research papers.
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
           <div className="shrink-0">
             <a href="https://oit.nd.edu" target="_blank" rel="noreferrer">
               <img
                 src="/images/ND_OIT_logo.png"
                 alt="ND_OIT"
-                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
             </a>
           </div>

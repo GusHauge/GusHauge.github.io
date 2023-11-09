@@ -8,17 +8,17 @@ export const Contact = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-x-8 lg:space-y-0 xl:space-x-12">
         <div className="shrink-0 lg:w-1/3">
           <img
-            src="/images/Croagh_Patrick_Side.jpg"
+            src="/images/Gus_laughing.jpeg"
             alt="Gus"
-            className="rounded-lg object-cover w-[32rem] h-52 lg:w-full lg:h-auto"
+            className="rounded-lg object-cover object-top w-[32rem] h-96 lg:w-full lg:h-auto"
           />
         </div>
 
         <div className="flex flex-col space-y-4 text-base md:text-lg lg:text-xl max-w-lg">
           <p>
-            I would love to connect and talk about technology, theology, ethics,
-            or anything on your mind! Please get in touch using the information
-            below:
+            I would love to connect and talk about technology and ethics,
+            person-focused development, or anything on your mind! Please get in
+            touch using the information below:
           </p>
           <p>Email: augustinehauge@gmail.com</p>
           <div className="flex flex-row space-x-8">
