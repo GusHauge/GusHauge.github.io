@@ -16,11 +16,11 @@ export const About = () => {
         <p className="text-base md:text-lg lg:text-xl max-w-lg">
           I am a senior at the University of Notre Dame pursuing a Bachelor of
           Arts in Computer Science and Theology, a unique combination that
-          reflects my enthusiasm for both technology and pursuit of the common
-          good. As a member of QuestBridge, a program that provides access to
-          elite universities for low-income students, I have learned the
-          importance of hard work and grit. I am excited by machine learning,
-          computer vision, tech ethics, data science, and web development. As I
+          reflects my enthusiasm for use of technology in pursuit of the common
+          good. As a member of QuestBridge, a program that connects low-income
+          students to elite universities, I have learned the importance of hard
+          work and perseverance. In the technology industry, I am especially
+          excited by machine learning, computer vision, and tech ethics. As I
           kickstart my career, I am committed to learning new skills and solving
           complex problems.
         </p>
