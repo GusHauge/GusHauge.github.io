@@ -88,17 +88,17 @@ export const Projects = () => {
               </div>
             </div>
             <p>
-              The website you're currently exploring, is the result of many
-              hours of learning and experimentation. It was built using Create
-              React App, React.js, and TailwindCSS. The site has many
-              user-focused features such as hover animations, smooth scrolling
-              from the navigation bar, responsive design for various screen
-              sizes, and more. Although it proved a challenge at times, I
-              learned an immense amount through the experience and effectively
-              developed my front-end design skills. The current site is a good
-              start but I hope to continuously update the website with new
-              projects and experience as well as improved styling and
-              functionality as I continue to grow as a software engineer.
+              The website you're currently exploring is the result of many hours
+              of learning and experimentation. It was built using Create React
+              App, React.js, and TailwindCSS. The site has many user-focused
+              features such as hover animations, smooth scrolling from the
+              navigation bar, responsive design for various screen sizes, and
+              more. Although it proved a challenge at times, I learned an
+              immense amount through the experience and effectively developed my
+              front-end design skills. The current website is a good start but I
+              hope to continuously update it with new projects and experience in
+              addition to improved styling and functionality as I continue to
+              grow in my career.
             </p>
           </div>
         </div>

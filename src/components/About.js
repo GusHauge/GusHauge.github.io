@@ -19,10 +19,9 @@ export const About = () => {
           reflects my enthusiasm for use of technology in pursuit of the common
           good. As a member of QuestBridge, a program that connects low-income
           students to elite universities, I have learned the importance of hard
-          work and perseverance. In the technology industry, I am especially
-          excited by machine learning, computer vision, and tech ethics. As I
-          kickstart my career, I am committed to learning new skills and solving
-          complex problems.
+          work and perseverance. I am especially excited by machine learning,
+          computer vision, and tech ethics. As I kickstart my career, I am
+          committed to learning new skills and solving complex problems.
         </p>
       </div>
     </div>

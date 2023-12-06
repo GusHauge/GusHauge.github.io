@@ -29,12 +29,12 @@ export const Experience = () => {
             </div>
             <p className="text-base sm:text-sm lg:text-base">
               I am currently working as a part-time intern for IBM, continuing
-              my work in the CIO department from this summer. I have taken part
-              in several meetings with important implications on the team's app
-              template and design of multiple internal apps that will affect
-              both IBM employees and enterprise partners. I have continued to
-              hone my skills in JavaScript while familiarizing myself with the
-              team's design architecture.
+              my work in the CIO department from this summer. I have been
+              assisting in a large-scale migration of apps to a new CI/CD
+              pipeline, conforming existing Node.js apps to new build standards.
+              I have also taken part in several meetings with important
+              implications on the team's new Node.js app template and the design
+              of certain internal apps.
             </p>
           </div>
         </div>
@@ -62,11 +62,11 @@ export const Experience = () => {
             </div>
             <p className="text-base sm:text-sm lg:text-base">
               This past summer my team and I built a full stack REST API using
-              React.js, Express.js, and PostgreSQL to streamline the IBM
-              Enterprise Federation onboarding experience and provide easy data
-              access to over 900 business partners. I was able to hone my skills
-              in agile methodologies, full stack web development, and database
-              management while improving my proficiency in JavaScript and CSS.
+              Node.js, React.js, and PostgreSQL to streamline the IBM Enterprise
+              Federation onboarding experience and provide easy data access to
+              over 900 business partners. I was able to hone my skills in agile
+              methodologies, full stack web development, and database management
+              while improving my proficiency in JavaScript and CSS.
             </p>
           </div>
         </div>
