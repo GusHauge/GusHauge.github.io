@@ -32,7 +32,9 @@ export const Experience = () => {
               my work in the CIO department from this summer. I have been
               assisting in a large-scale migration of apps to a new CI/CD
               pipeline, conforming existing Node.js apps to new build standards.
-              I have also taken part in several meetings with important
+              In addition, I have written multiple Node.js CronJobs to run
+              periodic tasks which are deployed on a cloud-based Kubernetes
+              cluster. I have also taken part in several meetings with important
               implications on the team's new Node.js app template and the design
               of certain internal apps.
             </p>
