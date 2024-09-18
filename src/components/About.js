@@ -14,14 +14,15 @@ export const About = () => {
           />
         </div>
         <p className="text-base md:text-lg lg:text-xl max-w-lg">
-          I am a senior at the University of Notre Dame pursuing a Bachelor of
-          Arts in Computer Science and Theology, a unique combination that
-          reflects my enthusiasm for use of technology in pursuit of the common
-          good. As a member of QuestBridge, a program that connects low-income
-          students to elite universities, I have learned the importance of hard
-          work and perseverance. I am especially excited by machine learning,
-          computer vision, and tech ethics. As I kickstart my career, I am
-          committed to learning new skills and solving complex problems.
+          Hi there! I am a full stack software developer at IBM and a recent
+          graduate of the University of Notre Dame currently living in Austin,
+          Texas. Throughout my young career, I have been able to sharpen my
+          skills in both front-end and back-end development with full stack
+          projects in my personal and professional work. At the moment, I am
+          most experienced in web development but I also have a great interest
+          in data visualization, ML-driven analytics, and computer vision. I am
+          always on the hunt for new applications of software and I hope for a
+          world where tech is used to help people in the areas of greatest need.
         </p>
       </div>
     </div>
