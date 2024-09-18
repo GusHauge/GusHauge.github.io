@@ -6,6 +6,39 @@ export const Experience = () => {
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Experience</h1>
       <div className="flex flex-col gap-16">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
+          <div className="shrink-0">
+            <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
+              <img
+                src="/images/IBM_logo_blue.png"
+                alt="IBM"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+              />
+            </a>
+          </div>
+          <div className="flex flex-col space-y-2 max-w-xl">
+            <div className="flex flex-col lg:flex-row justify-between">
+              <div className="flex-col">
+                <h1 className="text-lg font-bold">IBM</h1>
+                <p className="italic">Austin, TX</p>
+              </div>
+              <div className="flex-col lg:text-right">
+                <h1 className="text-lg font-bold">Software Developer</h1>
+                <p className="italic">Summer 2024-Present</p>
+              </div>
+            </div>
+            <p className="text-base sm:text-sm lg:text-base">
+              Following my graduation from the University of Notre Dame, I
+              returned to IBM to begin my career with the same team as before. I
+              have continued to work primarily in Node.js to create new features
+              for an internal Slackbot used company-wide, implement back-end
+              logic for a complete application overhaul project, and craft new
+              CronJobs to automate certificate-related processes affecting
+              thousands of internal apps.
+            </p>
+          </div>
+        </div>
+
         <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
           <div className="shrink-0">
             <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
@@ -23,20 +56,20 @@ export const Experience = () => {
                 <p className="italic">Remote</p>
               </div>
               <div className="flex-col lg:text-right">
-                <h1 className="text-lg font-bold">Software Engineer Intern</h1>
+                <h1 className="text-lg font-bold">Software Developer Co-op</h1>
                 <p className="italic">Fall 2023-Present</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              I am currently working as a part-time intern for IBM, continuing
-              my work in the CIO department from this summer. I have been
-              assisting in a large-scale migration of apps to a new CI/CD
+              Throghout my senior year I worked as a part-time intern for IBM,
+              continuing my work in the CIO department from Summer 2023. I been
+              assisted in a large-scale migration of apps to a new CI/CD
               pipeline, conforming existing Node.js apps to new build standards.
-              In addition, I have written multiple Node.js CronJobs to run
-              periodic tasks which are deployed on a cloud-based Kubernetes
-              cluster. I have also taken part in several meetings with important
-              implications on the team's new Node.js app template and the design
-              of certain internal apps.
+              In addition, I wrote a number of Node.js CronJobs to run periodic
+              tasks which are deployed on a cloud-based Kubernetes cluster. I
+              also took part in several meetings with important implications on
+              the team's new Node.js app templates and the modernization of a
+              large provisioning app.
             </p>
           </div>
         </div>
@@ -58,17 +91,18 @@ export const Experience = () => {
                 <p className="italic">Austin, TX</p>
               </div>
               <div className="flex-col lg:text-right">
-                <h1 className="text-lg font-bold">Software Engineer Intern</h1>
+                <h1 className="text-lg font-bold">Software Developer Intern</h1>
                 <p className="italic">Summer 2023</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              This past summer my team and I built a full stack REST API using
-              Node.js, React.js, and PostgreSQL to streamline the IBM Enterprise
-              Federation onboarding experience and provide easy data access to
-              over 900 business partners. I was able to hone my skills in agile
-              methodologies, full stack web development, and database management
-              while improving my proficiency in JavaScript and CSS.
+              Working with a small intern team, I built a full stack REST API
+              using Node.js, React.js, and PostgreSQL to streamline the IBM
+              Enterprise Federation onboarding experience and provide easy data
+              access to over 900 business partners. I was able to hone my skills
+              in agile methodologies, full stack web development, web page
+              design, and database management while improving my proficiency in
+              SQL, JavaScript, HTML, and CSS.
             </p>
           </div>
         </div>
