@@ -8,7 +8,7 @@ export const Contact = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-x-8 lg:space-y-0 xl:space-x-12">
         <div className="shrink-0 lg:w-1/3">
           <img
-            src="/images/Gus_laughing.jpeg"
+            src="/images/Headshot.jpg"
             alt="Gus"
             className="rounded-lg object-cover object-top w-[32rem] h-96 lg:w-full lg:h-auto"
           />
