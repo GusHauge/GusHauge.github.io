@@ -6,7 +6,7 @@ export const About = () => {
     >
       <h1 className="text-5xl sm:text-6xl font-thin">About</h1>
       <div className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-x-8 sm:space-y-0 md:space-x-12 lg:space-x-16 xl:space-x-20">
-        <div className="shrink-0 sm:w-1/3">
+        <div className="shrink-0 sm:w-1/3 lg:w-1/4 xl:w-1/3">
           <img
             src="/images/Bray_Frontal.jpg"
             alt="Gus"
