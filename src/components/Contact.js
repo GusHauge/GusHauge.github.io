@@ -6,11 +6,11 @@ export const Contact = () => {
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Contact</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-x-8 lg:space-y-0 xl:space-x-12">
-        <div className="shrink-0 lg:w-1/3">
+        <div className="shrink-0 sm:w-1/3 lg:w-1/4 xl:w-1/3 max-w-4xl">
           <img
             src="/images/Headshot.jpg"
             alt="Gus"
-            className="rounded-lg object-cover object-top w-[32rem] h-96 lg:w-full lg:h-auto"
+            className="rounded-lg object-cover w-96 h-64 sm:w-full sm:h-auto"
           />
         </div>
 
