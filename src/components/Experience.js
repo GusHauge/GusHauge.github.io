@@ -28,13 +28,13 @@ export const Experience = () => {
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              Following my graduation from the University of Notre Dame, I
-              returned to IBM to begin my career with the same team as before. I
-              have continued to work primarily in Node.js to create new features
-              for an internal Slackbot used company-wide, implement back-end
-              logic for a complete application overhaul project, and craft new
-              CronJobs to automate certificate-related processes affecting
-              thousands of internal apps.
+              Now at IBM full-time, I’ve worked on critical internal tools that
+              support authentication for thousands of applications used
+              worldwide. Among many things, I helped modernize a legacy SSO app,
+              cutting submission time from 5-25 minutes to under a minute and
+              led a Node.js upgrade across a major codebase. My time here has
+              given me hands-on experience with full-stack development,
+              infrastructure automation, and high-impact systems.
             </p>
           </div>
         </div>
@@ -57,19 +57,17 @@ export const Experience = () => {
               </div>
               <div className="flex-col lg:text-right">
                 <h1 className="text-lg font-bold">Software Developer Co-op</h1>
-                <p className="italic">Fall 2023-Present</p>
+                <p className="italic">Fall 2023-Spring 2024</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              Throghout my senior year I worked as a part-time intern for IBM,
-              continuing my work in the CIO department from Summer 2023. I been
-              assisted in a large-scale migration of apps to a new CI/CD
-              pipeline, conforming existing Node.js apps to new build standards.
-              In addition, I wrote a number of Node.js CronJobs to run periodic
-              tasks which are deployed on a cloud-based Kubernetes cluster. I
-              also took part in several meetings with important implications on
-              the team's new Node.js app templates and the modernization of a
-              large provisioning app.
+              During a co-op throughout my senior year, I took full ownership of
+              an enterprise-wide Slackbot used for 2FA resets, implementing new
+              features and usage tracking. I supported large-scale migrations of
+              Node.js apps to a new CI/CD pipeline and wrote CronJobs that
+              automated expiration alerts and permission updates. It was a
+              fast-moving role that taught me how to contribute quickly and
+              independently.
             </p>
           </div>
         </div>
@@ -96,13 +94,12 @@ export const Experience = () => {
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              Working with a small intern team, I built a full stack REST API
-              using Node.js, React.js, and PostgreSQL to streamline the IBM
-              Enterprise Federation onboarding experience and provide easy data
-              access to over 900 business partners. I was able to hone my skills
-              in agile methodologies, full stack web development, web page
-              design, and database management while improving my proficiency in
-              SQL, JavaScript, HTML, and CSS.
+              As a summer intern, I worked with three teammates to design and
+              build a full-stack onboarding system for over 900 clients. I
+              helped architect the frontend with React.js and the backend with
+              Node.js and PostgreSQL, contributing to all phases of development
+              from planning to delivery. It was my first taste of product
+              ownership and I loved it!
             </p>
           </div>
         </div>
@@ -131,14 +128,12 @@ export const Experience = () => {
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              Over 2 years I worked under Professors Adam Czajka and Patrick
-              Flynn at the University of Notre Dame's CVRL. I took on a number
-              of tasks, most notably a NIST iris recognition computer vision
-              project in which I used Python scripting and Pandas to filter
-              500,000 human iris images to a dataset of 6,000 images specified
-              by quality metric software. I also tested project code to build
-              Python environment files and crafted professional cover pages for
-              research papers.
+              In the Computer Vision Research Lab, I filtered and processed a
+              dataset of 500,000+ human iris images for biometric research. I
+              created Python scripts to apply quality metrics, managed project
+              GitHub repos, and contributed to published work. It gave me
+              valuable experience with data-heavy workflows and research-grade
+              tooling.
             </p>
           </div>
         </div>
@@ -169,14 +164,13 @@ export const Experience = () => {
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              During fall of 2021 I took my first ever tech-related job with the
-              University of Notre Dame's IT office. I primarily managed calls
-              and made classroom visits to aid professors and teaching
-              assistants to help with a variety of issues related to classroom
-              technology in a time when hybrid learning was in effect. I learned
-              how to operate in high-pressure situations where individuals
-              needed immediate help with technology, communicating with my team
-              to provide optimal service.
+              My first technical role was all about fast thinking and clear
+              communication. I supported professors during tech emergencies in
+              classrooms, diagnosing issues on the fly and making sure courses
+              could run smoothly - especially during the unique needs of the
+              COVID-19 pandemic. It taught me how to stay calm, think
+              technically, and explain clearly - all foundational skills in my
+              career.
             </p>
           </div>
         </div>
