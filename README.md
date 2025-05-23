@@ -1,43 +1,15 @@
 # Gus Hauge Portfolio Website | <a href="https://gushauge.github.io">GusHauge.github.io</a>
 
-Welcome to the source code for my personal website! It was built using Create React App, React.js, and Tailwind CSS.
+Welcome to the source code for my personal website! Built with React.js, Tailwind CSS, and Create React App, this site is a space for me to share my work, story, and growth as a developer.
 
-## Motivation
-Portfolio websites have always been daunting to me. For a long time it was an idea tucked into the back of my mind that
-I wanted to do but just couldn't. I picked up basic HTML, CSS, and JavaScript abilities during a Web Development class my Junior year but could only create very simple designs. Finally, during my internship at IBM, I acquired extensive JavaScript and 
-React.js experience and realized that I had all the skills I needed. I wanted a place where I could share my story, skills, 
-and projects. But just as much as this, I wanted to challenge myself to craft a website without the internal libraries I had 
-been using at my internship.
+## Why I Built It
 
-## Process
-Once I got started, the workflow for this project was fairly simple. I made changes from a dev branch, pushed it and merged 
-to main, and then used npm run deploy to deploy the site using gh-pages. I made use of detailed commit messages to easily 
-track my progress and tried to make frequent commits for ease of editing and backtracking if need be.
+For a long time, building a portfolio felt out of reach. After gaining real-world experience with JavaScript and React during my IBM internship, I realized I finally had the tools - and the confidence - to create something from scratch. I wanted a fun, interactive space that reflected me, built without relying on internal libraries or pre-made templates.
 
-## Difficulties
-Initially, I was unfamiliar with the gh-pages deployment setup which led to many issues throughout development. I had done 
-quite a bit of React programming at my IBM internship but had also relied heavily on internal libraries for pre-made 
-components and page templates. With this project I was working with a completely blank canvas. At first this was 
-intimidating but once I dove into the project I was able to appreciate the creative freedom this gave me. I was able to use 
-so many visual elements that would not have been possible with most corporate React libraries. In particular, I struggled 
-with responsive styling since my work with IBM was mainly catered to desktop users, not mobile. Thankfully, TailwindCSS has 
-excellent features that make breakpoint-based styling simple once you're over the learning curve. By the end of the project, 
-I felt very confident in my ability to style pages for different kinds of devices.
+## What I Learned
 
-## Takeaways
-There is so much that I learned from this project but I'll try to boil it down to a few points. First, the best way to solve
-a problem is to take it on head-first and actively try out solutions. While this may seem self-evident, it becomes visualized
-in a special way when working with web design. There were many times I would be concerned about drastically change my page's
-layout but whenever I altered it to try something new it led to immense success. Second, you need to have a gameplan
-before you begin a new project. This seems directly opposed to the last point, but effective work requires a balance
-between the two. There were times when I would begin styling a page without a complete image of the final design only to
-realize that I needed to turn to my sketchbook first. Before you start trying different options, you need a holistic 
-picture. Third and final, don't let your current knowledge and skills limit your vision. There were so many times when I 
-wanted to do something - such as a fade in/fade out dropdown menu for small screen sizes - and I would have no idea where to 
-start. It might take a lot of online research and trial-and-error but I would learn so much through the process and be 
-better equipped for future problems.
+This project pushed me beyond my comfort zone. I navigated new tools like gh-pages, styled everything responsively with TailwindCSS, and learned to trust both planning and experimentation in proper balance. Most of all, I proved to myself that I could design and ship a project on my own terms.
 
 <br>
 
-Thank you for taking a peek into my world! Feel free to connect with me if you have comments, suggestions, questions, or
-just want to chat.
+Thanks for visiting! Feel free to reach out if you have questions, suggestions, or just want to chat.
