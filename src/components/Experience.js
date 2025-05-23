@@ -31,7 +31,7 @@ export const Experience = () => {
               Now at IBM full-time, I’ve worked on critical internal tools that
               support authentication for thousands of applications used
               worldwide. Among many things, I helped modernize a legacy SSO app,
-              cutting submission time from 5-25 minutes to under a minute and
+              cutting submission time from 5-25 minutes to under a minute, and
               led a Node.js upgrade across a major codebase. My time here has
               given me hands-on experience with full-stack development,
               infrastructure automation, and high-impact systems.
