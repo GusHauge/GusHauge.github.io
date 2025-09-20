@@ -27,7 +27,7 @@ export const Contact = () => {
               alt="Email"
               className="w-8 rounded-md"
             />
-            <p className="text-justify">augustinehauge@gmail.com</p>
+            <p>augustinehauge@gmail.com</p>
           </div>
 
           <div className="flex flex-row space-x-8">
@@ -44,7 +44,7 @@ export const Contact = () => {
                 />
               </a>
             </div>
-            <p>linkedin.com/in/gushauge</p>
+            <p>Gus Hauge</p>
           </div>
 
           <div className="flex flex-row space-x-8">
