@@ -2,7 +2,7 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      className="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
+      className="flex flex-col w-full h-fit bg-black items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Experience</h1>
       <div className="flex flex-col gap-16">
@@ -29,12 +29,13 @@ export const Experience = () => {
             </div>
             <p className="text-base sm:text-sm lg:text-base">
               Now at IBM full-time, I’ve worked on critical internal tools that
-              support authentication for thousands of applications used
-              worldwide. Among many things, I helped modernize a legacy SSO app,
-              cutting submission time from 5-25 minutes to under a minute, and
-              led a Node.js upgrade across a major codebase. My time here has
-              given me hands-on experience with full-stack development,
-              infrastructure automation, and high-impact systems.
+              support thousands of applications and hundreds of thousands of
+              users worldwide. Among many things, I helped modernize a legacy
+              SSO app, cutting submission time from 5-25 minutes to under a
+              minute, and delivered a major Java upgrade with automated testing
+              for a web service app. I've been able to take ownership and learn
+              about end-to-end development process as I continue to learn every
+              day.
             </p>
           </div>
         </div>
@@ -78,7 +79,7 @@ export const Experience = () => {
               <img
                 src="/images/IBM_logo_dark.png"
                 alt="IBM"
-                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+                className="rounded-2xl w-52 outline outline-1 outline-white transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
             </a>
           </div>
@@ -99,7 +100,8 @@ export const Experience = () => {
               helped architect the frontend with React.js and the backend with
               Node.js and PostgreSQL, contributing to all phases of development
               from planning to delivery. It was my first taste of product
-              ownership and I loved it!
+              ownership and it taught me about agile development, communication,
+              and individual versatility.
             </p>
           </div>
         </div>
@@ -131,9 +133,8 @@ export const Experience = () => {
               In the Computer Vision Research Lab, I filtered and processed a
               dataset of 500,000+ human iris images for biometric research. I
               created Python scripts to apply quality metrics, managed project
-              GitHub repos, and contributed to published work. It gave me
-              valuable experience with data-heavy workflows and research-grade
-              tooling.
+              GitHub repos, and supported published work. It gave me valuable
+              experience with data-heavy workflows and research-grade tooling.
             </p>
           </div>
         </div>
@@ -167,8 +168,8 @@ export const Experience = () => {
               My first technical role was all about fast thinking and clear
               communication. I supported professors during tech emergencies in
               classrooms, diagnosing issues on the fly and making sure courses
-              could run smoothly - especially during the unique needs of the
-              COVID-19 pandemic. It taught me how to stay calm, think
+              could run smoothly during the unique needs of the COVID-19
+              pandemic. Every day was a lesson in how to stay calm, think
               technically, and explain clearly - all foundational skills in my
               career.
             </p>

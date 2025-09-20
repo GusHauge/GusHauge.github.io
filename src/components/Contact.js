@@ -2,7 +2,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col w-full h-fit bg-gradient-to-b from-indigo-900 to-black items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10 pb-32"
+      className="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10 pb-32"
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Contact</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-x-8 lg:space-y-0 xl:space-x-12">
@@ -14,16 +14,22 @@ export const Contact = () => {
           />
         </div>
 
-        <div className="flex flex-col space-y-4 text-base md:text-lg lg:text-xl max-w-lg">
+        <div className="flex flex-col space-y-6 text-base md:text-lg lg:text-xl max-w-lg">
           <p>
-            I'm always open to new opportunities, collaborations, or just a good
-            conversation about tech, projects, or life in general. If you'd like
+            I'm always open to new opportunities, collaborations, and
+            conversations about tech, ethics, or life in general. If you'd like
             to work together, have a question, or want to connect, feel free to
-            reach out - I’d love to hear from you!
+            reach out!
           </p>
-          <p>Email: augustinehauge@gmail.com</p>
-          <p>LinkedIn: linkedin.com/in/gushauge</p>
-          <p>GitHub: @GusHauge</p>
+          <div className="flex flex-row space-x-8">
+            <img
+              src="/images/Email_logo.png"
+              alt="Email"
+              className="w-8 rounded-md"
+            />
+            <p>augustinehauge@gmail.com</p>
+          </div>
+
           <div className="flex flex-row space-x-8">
             <div className="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
               <a
@@ -38,6 +44,10 @@ export const Contact = () => {
                 />
               </a>
             </div>
+            <p>Gus Hauge</p>
+          </div>
+
+          <div className="flex flex-row space-x-8">
             <div className="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
               <a
                 href="https://github.com/GusHauge"
@@ -51,6 +61,7 @@ export const Contact = () => {
                 />
               </a>
             </div>
+            <p>@GusHauge</p>
           </div>
         </div>
       </div>
