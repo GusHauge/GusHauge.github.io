@@ -2,7 +2,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col w-full h-fit bg-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
+      className="flex flex-col w-full h-fit bg-black items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Projects</h1>
       <div className="flex flex-col gap-16">
@@ -15,8 +15,8 @@ export const Projects = () => {
             >
               <img
                 src="/images/Gus_logo_snipped.png"
-                alt="March Metrics code"
-                className="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:ml-10 outline outline-white outline-1 transition ease-in-out delay-75 duration-150 hover:scale-105"
+                alt="Gus logo"
+                className="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:ml-10 transition ease-in-out delay-75 duration-150 hover:scale-105"
               />
             </a>
           </div>
@@ -50,8 +50,8 @@ export const Projects = () => {
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:space-y-0">
           <div className="shrink-0">
             <img
-              src="/images/Basketball_stock.jpg"
-              alt="March Metrics code"
+              src="/images/Basketball.jpg"
+              alt="Basketball stock"
               className="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:mr-10"
             />
           </div>
@@ -79,8 +79,8 @@ export const Projects = () => {
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row-reverse lg:space-y-0">
           <div className="shrink-0">
             <img
-              src="/images/Chicago_skyline.jpg"
-              alt="Chicago skyline stock"
+              src="/images/Chicago.jpg"
+              alt="Chicago stock"
               className="rounded-2xl w-[36rem] h-36 object-cover lg:h-auto lg:w-96 lg:ml-10"
             />
           </div>

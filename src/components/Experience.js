@@ -2,7 +2,7 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      className="flex flex-col w-full h-fit bg-gradient-to-b from-black to-indigo-900 items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
+      className="flex flex-col w-full h-fit bg-black items-center space-y-14 sm:space-y-20 py-8 sm:py-14 px-10"
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Experience</h1>
       <div className="flex flex-col gap-16">
@@ -78,7 +78,7 @@ export const Experience = () => {
               <img
                 src="/images/IBM_logo_dark.png"
                 alt="IBM"
-                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
+                className="rounded-2xl w-52 outline outline-1 outline-white transition ease-in-out delay-75 duration-150 hover:scale-110 sm:ml-10"
               />
             </a>
           </div>
