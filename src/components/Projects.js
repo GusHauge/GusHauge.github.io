@@ -38,11 +38,10 @@ export const Projects = () => {
               </div>
             </div>
             <p>
-              This very site! I built it from scratch using React.js and
-              TailwindCSS to showcase who I am, what I’ve built, and what I care
-              about. It's responsive, interactive, and a great example of how I
-              approach design and development - clean, functional, and
-              user-friendly.
+              I built this from scratch using React.js and Tailwind CSS to
+              showcase who I am, what I’ve built, and what I care about. It's
+              responsive, interactive, and a great example of what I value in
+              design and development: clean, functional, and user-friendly.
             </p>
           </div>
         </div>
@@ -64,8 +63,8 @@ export const Projects = () => {
             <p>
               Together with 3 classmates, I built a machine learning model that
               predicts NCAA tournament outcomes with over 90% accuracy. Using
-              Scikit-Learn, Pandas, and real data from 2013–2019, I trained a
-              random forest classifier and explored feature importance to make
+              Scikit-Learn, Pandas, and real team data from 2013–2019, I trained
+              a random forest classifier and explored feature importance to make
               meaningful predictions. It was a fun way to mix sports and data
               science, two lifelong interests of mine.
             </p>
@@ -94,8 +93,10 @@ export const Projects = () => {
               This was a collaborative project where I helped analyze and
               visualize disparities in Chicago’s public school system. I used
               Python with Pandas and Plotly to process large datasets and create
-              interactive visualizations that told a clear, human-centered
-              story. It reminded me how powerful data can be when used for good.
+              interactive visualizations that told a clear, human-centered story
+              about student outcomes. It reminded me how powerful data can be
+              when used for good, something that remains a priority for me in my
+              career.
             </p>
             <p className="font-bold">
               NOTE: Code is unavailable since it was owned by a Notre Dame
