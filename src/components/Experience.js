@@ -6,6 +6,40 @@ export const Experience = () => {
     >
       <h1 className="text-5xl sm:text-6xl font-thin">Experience</h1>
       <div className="flex flex-col gap-16">
+        <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row sm:space-y-0">
+          <div className="shrink-0">
+            <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
+              <img
+                src="/images/IBM_logo_blue.png"
+                alt="IBM"
+                className="rounded-2xl w-52 transition ease-in-out delay-75 duration-150 hover:scale-110 sm:mr-10"
+              />
+            </a>
+          </div>
+          <div className="flex flex-col space-y-2 max-w-xl">
+            <div className="flex flex-col lg:flex-row justify-between">
+              <div className="flex-col">
+                <h1 className="text-lg font-bold">IBM</h1>
+                <p className="italic">Austin, TX</p>
+              </div>
+              <div className="flex-col lg:text-right">
+                <h1 className="text-lg font-bold">Software Developer</h1>
+                <p className="italic">November 2025 - Present</p>
+              </div>
+            </div>
+            <p className="text-base sm:text-sm lg:text-base">
+              After a quick promotion, I have emerged as a key figure in
+              modernization and automation efforts. After acquiring a data
+              extraction tool, I immediately optimized the backend to improve
+              query speed by 3x, cleaned up the databases to reduce overhead by
+              98% (Test) and 68% (Production), and rewrote the frontend from
+              Angular to React to comply with IBM design standards. I have
+              rapidly grown in cross-functional communication and business need
+              awareness.
+            </p>
+          </div>
+        </div>
+
         <div className="flex flex-col space-y-6 items-center justify-center sm:flex-row-reverse sm:space-y-0">
           <div className="shrink-0">
             <a href="https://www.ibm.com" target="_blank" rel="noreferrer">
@@ -23,19 +57,20 @@ export const Experience = () => {
                 <p className="italic">Austin, TX</p>
               </div>
               <div className="flex-col lg:text-right">
-                <h1 className="text-lg font-bold">Software Developer</h1>
-                <p className="italic">Summer 2024-Present</p>
+                <h1 className="text-lg font-bold">
+                  Associate Software Developer
+                </h1>
+                <p className="italic">July 2024 - November 2025</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
-              Now at IBM full-time, I’ve worked on critical internal tools that
-              support thousands of applications and hundreds of thousands of
-              users worldwide. Among many things, I helped modernize a legacy
-              SSO app, cutting submission time from 5-25 minutes to under a
-              minute, and delivered a major Java upgrade with automated testing
-              for a web service app. I've been able to take ownership and learn
-              about end-to-end development process as I continue to learn every
-              day.
+              After joining IBM full-time, I jumped right into large-scale
+              identity tooling. Among many other projects, I helped modernize a
+              legacy SSO app, cutting submission time from 5-25 minutes to under
+              a minute, and delivered a major Java upgrade with automated
+              testing for a large infrastructure web service. From day one I was
+              able to take ownership and learn about end-to-end development as I
+              honed my technical and soft skills.
             </p>
           </div>
         </div>
@@ -58,7 +93,7 @@ export const Experience = () => {
               </div>
               <div className="flex-col lg:text-right">
                 <h1 className="text-lg font-bold">Software Developer Co-op</h1>
-                <p className="italic">Fall 2023-Spring 2024</p>
+                <p className="italic">August 2023 - May 2024</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
@@ -91,7 +126,7 @@ export const Experience = () => {
               </div>
               <div className="flex-col lg:text-right">
                 <h1 className="text-lg font-bold">Software Developer Intern</h1>
-                <p className="italic">Summer 2023</p>
+                <p className="italic">May 2023 - August 2023</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
@@ -126,7 +161,7 @@ export const Experience = () => {
               </div>
               <div className="flex-col lg:text-right">
                 <h1 className="text-lg font-bold">Research Assistant</h1>
-                <p className="italic">Fall 2021-Spring 2023</p>
+                <p className="italic">October 2021 - May 2023</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
@@ -161,7 +196,7 @@ export const Experience = () => {
                 <h1 className="text-lg font-bold">
                   Classroom Triage Assistant
                 </h1>
-                <p className="italic">Fall 2021</p>
+                <p className="italic">August 2021 - October 2021</p>
               </div>
             </div>
             <p className="text-base sm:text-sm lg:text-base">
