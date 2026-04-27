@@ -17,18 +17,9 @@ export const Contact = () => {
         <div className="flex flex-col space-y-6 text-base md:text-lg lg:text-xl max-w-lg">
           <p>
             I'm always open to new opportunities, collaborations, and
-            conversations about tech, ethics, or life in general. If you'd like
-            to work together, have a question, or want to connect, feel free to
-            reach out!
+            conversations about tech, ethics, and life in general. If you'd like
+            to connect please reach out!
           </p>
-          <div className="flex flex-row space-x-8">
-            <img
-              src="/images/Email_logo.png"
-              alt="Email"
-              className="w-8 rounded-md"
-            />
-            <p>augustinehauge@gmail.com</p>
-          </div>
 
           <div className="flex flex-row space-x-8">
             <div className="shrink-0 transition ease-in-out delay-75 duration-150 hover:scale-125">
