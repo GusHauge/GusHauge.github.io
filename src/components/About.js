@@ -14,17 +14,14 @@ export const About = () => {
           />
         </div>
         <p className="text-base md:text-lg lg:text-xl max-w-lg">
-          Hi, I’m Gus - a software developer who enjoys building tools that make
-          life simpler, faster, and more enjoyable. At IBM I've had the chance
-          to work on full stack web apps, large-scale infrastructure, and
-          analytics automation, learning the value of clean code, effective
-          design, and reliable systems along the way. I studied Computer Science
-          and Theology at Notre Dame, reflecting my deep care for both how
-          things work and why they matter. Whether I’m designing new features,
-          automating complex workflows, or enhancing user experience, I’m always
+          Hi, I’m Gus - a software developer who enjoys building tools that help
+          people live and work better. At IBM I've had the chance to work on
+          high-impact projects in the identity space, learning the value of
+          communication, full stack system design, and user needs. I studied
+          Computer Science and Theology at Notre Dame, reflecting and expanding
+          my deep care for both how things work and why they matter. I’m always
           looking for ways to grow, collaborate, and create something
-          meaningful. Thanks for stopping by; feel free to check out my projects
-          and reach out!
+          meaningful. Please reach out using my contact info below!
         </p>
       </div>
     </div>
